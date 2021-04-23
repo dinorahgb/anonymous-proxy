@@ -1,0 +1,29 @@
+
+.header__container {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url(../assets/images/cover.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header__menu--icon {
+    width: 44px;
+    height: 44px;
+    background-color: #0271bc;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header__menu--img {
+    width: 100%;
+}
+
+.title{
+justify-content: center;
+font-family: $font-title ;
+}
