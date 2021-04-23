@@ -1,5 +1,57 @@
 .footer__container {
-    width: 100%;
-    height: 465pxs;
-    background-color: #304268;
+  width: 100%;
+  height: 465px;
+  background-color: $color-blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+.footer__button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: $color-white;
+  background-image: url(../images/ico-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  transform:translateY(-50%);
+}
+.footer__nav1 {
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-family: $font-second;
+  font-size: $font-size-footer;
+  text-transform: uppercase;
+  line-height: 1.88;
+}
+.footer__nav2 {
+  text-decoration: none;
+  text-align: center;
+  font-family: $font-second;
+  font-size: $font-size-footer;
+  text-transform: uppercase;
+  line-height: 1.88;
+  margin-top: 30px;
+}
+.footer__nav1--link {
+  text-decoration: none;
+  color: $color-white;
+}
+.footer__copy {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+  font-family: $font-second;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $color-white;
+  
+}
+/* revisar!! @media all and (min-width: 1200px) {
+      margin-top: 20px;
+      border-radius: 50px;}*/
+      
