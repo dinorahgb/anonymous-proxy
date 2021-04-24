@@ -4,31 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css.main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Anonymous Proxy</title>
   </head>
   <body>
-      <header class="header__container">
-          <div class="header__menu--icon">
-            <img class="header__menu--img" src="./assets/images/icon-menu.svg" alt="icon-menu">
-          </div>
-          
-          <h1 class="title">Anonymous Proxy</h1>
-          <h2>In hac habitasse platea dictumst.</h2>
-          <button>boton</button>
-        </header>
+    <header class="header__container">
+      <nav class="header__menu--icon">
+        <a href="http://adalab.es/"></a>
+      </nav>
+      <h1 class="header__title">Anonymous Proxy</h1>
+      <h2 class="header__subtitle">In hac habitasse platea dictumst.</h2>
+      <nav class="header__button">
+        <a href="./main_3reasons.html" target="_blank"></a>
+      </nav>
+    </header>
+
     <main>
       <section>
-        <article>
-          <small> insomnia tips</small>
-          <h2>looking through a window</h2>
+        <article class="main__section">
+          <small class="main__article--small"> insomnia tips</small>
+          <h2 class="main__article1--title">looking through a window</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, qui
             rem! Maxime dignissimos eligendi distinctio, mollitia, iusto blanditiis
             optio maiores harum aperiam temporibus provident consectetur ex libero
             earum ipsum omnis.
           </p>
-          go
+          <nav> 
+            <a class="main__nav--link" href="http://adalab.es/">go</a>
+          </nav>
         </article>
       </section>
       <section>
@@ -57,24 +66,27 @@
     </main>
 
     <footer class="footer__container">
-     Boton
-      <nav>
+      <nav class="footer__button">
+        <a href="./header.html"></a>
+      </nav>
+      <nav class="footer__nav">
         <ul>
-          <li><a href=""> articles</a></li>
-          <li><a href=""> books</a></li>
-          <li><a href=""> events</a></li>
-          <li><a href=""> reasons</a></li>
-          <li><a href=""> tips</a></li>
+          <li><a class="footer__nav--link" href=""> articles</a></li>
+          <li><a class="footer__nav--link" href=""> books</a></li>
+          <li><a class="footer__nav--link" href=""> events</a></li>
+          <li><a class="footer__nav--link" href=""> reasons</a></li>
+          <li><a class="footer__nav--link" href=""> tips</a></li>
         </ul>
-        </nav>
-      <nav>
-        <ul>
-          <li><a href="">twitter</a></li>
-          <li><a href="">instagram</a></li>
-          <li><a href="">mastodon.social</a></li>
+        <ul class="footer__nav--list">
+          <li><a class="footer__nav--link" href="">twitter</a></li>
+          <li><a class="footer__nav--link" href="">instagram</a></li>
+          <li><a class="footer__nav--link" href="">mastodon.social</a></li>
         </ul>
       </nav>
-      <small> ©2021 we (corazon) components </small>
+      <div class="footer__copy">
+        <small>©2021</small>
+        <small>we ❤︎ components</small>
+      </div>
     </footer>
 
   </body>
