@@ -7,6 +7,7 @@
   align-items: flex-start;
 
   @media all and (min-width: 768px) {
+   height: 330px;
     margin: 30px 39px 0px 39px;
   }
 
@@ -33,6 +34,8 @@
   width: 290px;
   font-family: $font-title;
   font-size: $font-size-title;
+  line-height: 1.25;
+  font-weight: bold;
   text-transform: capitalize;
 
   @media all and (min-width: 768px) {
@@ -44,7 +47,7 @@
   }
 }
 .main__article1--text {
-  width: 340px;
+  width: 290px;
   font-family: $font-second;
   font-size: $font-size-main;
   line-height: 1.67;

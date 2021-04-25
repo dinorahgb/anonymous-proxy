@@ -10,6 +10,11 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     height: 240px;
+    padding-left: 39px;
+  }
+  @media all and (min-width: 1200px) {
+    justify-content: center;
+    padding-left: 0%;
   }
 }
 .footer__button {
@@ -28,27 +33,41 @@
     top: -50%;
     left: -50%;
   }
+  @media all and (min-width: 1200px) {
+    transform: translateX(50%);
+    position: relative;
+    top: -50%;
+    left: -25%;
+  }
 }
-.footer__nav {
+.footer__nav--pags,
+.footer__nav--social {
   text-decoration: none;
   text-align: center;
   font-family: $font-second;
   font-size: $font-size-footer;
   text-transform: uppercase;
   line-height: 1.88;
+  margin-top: 20px;
 
   @media all and (min-width: 768px) {
-    display: flex;
-    justify-content: flex-start;
+    width: 210px;
+    height: 150px;
+    margin-top: 0;
+    padding-left: 30px;
     text-align: start;
-   /* margin-right: 10px;*/
+  }
+  @media all and (min-width: 1200px) {
+    width: 160px;
+    padding-left: 0;
   }
 }
-.footer__nav--list {
-  margin-top: 20px;
+.footer__nav--pags {
   @media all and (min-width: 768px) {
-    padding-left: 120px;
-   
+    order: 1;
+  }
+  @media all and (min-width: 1200px) {
+    width: 210px;
   }
 }
 .footer__nav--link {
@@ -61,17 +80,18 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
   font-family: $font-second;
   font-size: 14px;
   text-transform: uppercase;
   color: $color-white;
 
   @media all and (min-width: 768px) {
+    width: 210px;
     align-items: flex-start;
     height: 100%;
     margin-top: 100px;
-    margin-left: 40px;
     justify-content: start;
+    order: 3;
   }
 }
