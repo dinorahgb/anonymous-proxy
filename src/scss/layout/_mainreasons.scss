@@ -48,7 +48,6 @@
     line-height: 1.25;
   }
 }
-
 .sectionreasons__article--title {
   font-family: $font-title;
   font-size: $font-size-main;
@@ -57,7 +56,6 @@
     font-size: $font-size-title;
   }
 }
-
 .main__sectionreasons--nav {
   width: 184px;
   height: 45px;
@@ -74,7 +72,7 @@
     grid-column: span 3;
   }
 
-  @media all and (min-width: 1200px){
+  @media all and (min-width: 1200px) {
     width: 255px;
   }
 }
@@ -84,4 +82,8 @@
   text-decoration: none;
   text-transform: capitalize;
   color: $color-white;
+  transition: color, 1s;
+  &:hover {
+    color: $color-darkblue;
+  }
 }

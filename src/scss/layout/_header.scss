@@ -15,16 +15,13 @@
   padding: 15px;
   background-color: $color-blue;
   background-image: url(../images/ico-menu.svg);
-  background-position: center;
+  background-position: center ;
   background-repeat: no-repeat;
   position: fixed;
   top: 0;
   left: 0;
 }
-.header__menu--img {
-  width: 16px;
-  height: 14px;
-}
+
 .header__title {
   width: 290px;
   margin-top: 284px;
@@ -68,8 +65,15 @@
   border-radius: 50px;
   background-color: $color-white;
   background-image: url(../images/ico-scroll-down.svg);
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color, 1s;
+  &:hover {
+    background-color: transparent;
+  }
 
   @media all and (min-width: 1200px) {
     margin-top: 20px;
