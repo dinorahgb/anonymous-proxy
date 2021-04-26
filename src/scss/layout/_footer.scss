@@ -43,18 +43,6 @@
   &:hover {
     background-color: $color-border;
   }
-  animation: slidein 2s alternate;
-
-  @keyframes slidein {
-    from {
-      margin-bottom: 300%;
-      width: 600%;
-    }
-    to {
-      margin-bottom: 0%;
-      width: 100%;
-    }
-  }
 
   @media all and (min-width: 768px) {
     transform: translateY(0);
