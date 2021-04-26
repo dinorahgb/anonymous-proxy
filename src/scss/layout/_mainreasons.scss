@@ -7,6 +7,7 @@
   background-color: $color-bg;
   justify-content: center;
   text-align: center;
+  padding-bottom: 40px;
 
   @media all and (min-width: 768px) {
     height: 397px;
@@ -37,15 +38,17 @@
 }
 .main__sectionreasons--article {
   width: 180px;
-  height: 63px;
   margin: auto;
   line-height: 1.67;
   font-family: $font-second;
   font-size: $font-size-main;
 
   @media all and (min-width: 768px) {
+    width: 212px;
+    height: 68px;
     font-size: 20px;
     line-height: 1.25;
+  
   }
 }
 .sectionreasons__article--title {
@@ -54,18 +57,25 @@
 
   @media all and (min-width: 768px) {
     font-size: $font-size-title;
+    padding-bottom: 14px;
   }
 }
 .main__sectionreasons--nav {
   width: 184px;
   height: 45px;
   background-color: $color-border;
+  border: solid 1px $color-border;
   border-radius: 25px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  transition: background-color, 1s;
+  &:hover {
+    background-color: $color-white;
+    border: solid 1px $color-border;
+  }
 
   @media all and (min-width: 768px) {
     width: 210px;
