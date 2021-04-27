@@ -1,21 +1,21 @@
-.main__section {
+.looking__container {
   width: 100%;
-  margin: 30px 20px 40px 20px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  padding-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 45px;
 
   @media all and (min-width: 768px) {
     height: 330px;
-    margin: 30px 39px 0px 39px;
+    padding-left: 39px;
   }
 
   @media all and (min-width: 1200px) {
-    justify-content: center;
     padding-left: 275px;
   }
 }
-.main__article--small {
+.looking__small {
   width: 90px;
   font-family: $font-second;
   font-size: 14px;
@@ -29,7 +29,7 @@
     
   }
 }
-.main__article1--title {
+.looking__title {
   width: 290px;
   font-family: $font-title;
   font-size: $font-size-title;
@@ -45,7 +45,7 @@
     font-size: $font-size-title3;
   }
 }
-.main__article1--text {
+.looking__text {
   width: 290px;
   font-family: $font-second;
   font-size: $font-size-main;
@@ -59,7 +59,7 @@
     font-size: $font-size-main2;
   }
 }
-.main__nav {
+.looking__nav {
   width: 76px;
   height: 45px;
   border: 2px solid $color-border;
@@ -90,7 +90,7 @@
     width: 160px;
   }
 }
-.main__nav--link {
+.looking__nav--link {
   font-family: $font-title;
   font-size: 20px;
   text-decoration: none;
