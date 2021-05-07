@@ -12,12 +12,10 @@
   @media all and (min-width: 768px) {
     height: 397px;
     grid-template-columns: 210px 240px 210px;
-    grid-template-rows: 40px;
   }
   @media all and (min-width: 1200px) {
     height: 427px;
     grid-template-columns: 350px 410px 350px;
-    grid-template-rows: 40px;
   }
 }
 .main__sectionreasons--title {
@@ -48,7 +46,6 @@
     height: 68px;
     font-size: 20px;
     line-height: 1.25;
-  
   }
 }
 .sectionreasons__article--title {

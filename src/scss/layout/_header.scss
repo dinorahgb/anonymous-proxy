@@ -3,7 +3,7 @@
   height: 100vh;
   background-image: url(../images/cover.jpg);
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,7 @@
   padding: 15px;
   background-color: $color-blue;
   background-image: url(../images/ico-menu.svg);
-  background-position: center ;
+  background-position: center;
   background-repeat: no-repeat;
   position: fixed;
   top: 0;
@@ -28,7 +28,7 @@
   font-family: $font-title;
   color: $color-white;
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 42px;
   font-weight: bold;
   text-align: center;
   line-height: 1.33;
